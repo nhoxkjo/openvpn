@@ -1,11 +1,9 @@
 #!/bin/bash
 
 clear
-echo "   ___         _    ___  ___ ____   "
-echo "  / __|___ _ _| |_ / _ \/ __|__  |  "
-echo " | (__/ -_) ' \  _| (_) \__ \ / /   "
-echo "  \___\___|_||_\__|\___/|___//_/    "
-echo " OpenVPN Access Server With Unlimited License By Cung Hoc Web"
+echo "Bản quyền dành cho máy chủ CentOS 7"
+echo "Tự động cài đặt, đến mục DELETE nhập DELETE và sau đó cứ tiếp tục ấn ENTER"
+echo "OpenVPN Access Server 2.5 Unlimited License by cunghocweb.com"
 
 yum update -y
 yum install wget -y
