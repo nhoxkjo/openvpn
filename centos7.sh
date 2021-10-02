@@ -2,7 +2,7 @@
 
 clear
 echo "Bản quyền dành cho máy chủ CentOS 7"
-echo "Tự động cài đặt, đến mục DELETE nhập DELETE và sau đó cứ tiếp tục ấn ENTER"
+echo "Tự động cài đặt"
 echo "OpenVPN Access Server 2.5 Unlimited License by cunghocweb.com"
 
 yum update -y
@@ -14,15 +14,19 @@ cd /usr/local/openvpn_as/lib/python2.7/site-packages/
 rm pyovpn-2.0-py2.7.egg
 wget https://cloud.cunghocweb.com/openvpn/pyovpn-2.0-py2.7.egg
 cd /usr/local/openvpn_as/bin
+
+echo "Đến mục DELETE nhập DELETE và sau đó cứ tiếp tục ấn ENTER"
+
 ./ovpn-init
 
 
-echo "=========================DONE=============================="
-echo "SETUP ADMIN PASSWORD"
+echo "========================= CÀI ĐẶT XONG =============================="
+
+echo "Tạo mật khẩu Admin"
 
 passwd openvpn
 
 
-echo "=========================DONE=============================="
+echo "========================= HOÀN TẤT =============================="
 
-echo "===================Telegram Help +1 731 203 2777 ============="
+echo "=================== Trợ giúp Zalo 0913 888 471 ============="
